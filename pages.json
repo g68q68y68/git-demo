@@ -1,0 +1,35 @@
+{
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"disableSwipeBack": false   // 启用手势返回，默认值就是 false，可以省略
+			}
+		},
+		{
+			"path": "pages/addMedia/addMedia",
+			"style": {
+				"navigationBarTitleText": "",
+				"disableSwipeBack": false // 手势返回功能，false表示启用，true表示禁用
+			}
+		},
+		{
+			"path": "pages/viewPhotoAndVideo/viewPhotoAndVideo",
+			"style": {
+				"navigationBarTitleText": "",
+				"disableSwipeBack": false // 手势返回功能，false表示启用，true表示禁用
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+	
+}
